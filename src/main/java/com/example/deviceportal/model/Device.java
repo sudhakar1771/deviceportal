@@ -5,7 +5,7 @@ public class Device {
     private String portNumber;
     private String type;
 
-    // Getters and Setters
+
     public String getSerialNumber() {
         return serialNumber;
     }
