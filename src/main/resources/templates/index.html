@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Device Portal</title>
+</head>
+<body>
+<h1>Device Portal</h1>
+<form action="/submit" method="post">
+    <div>
+        <label for="serialNumber">Device Serial Number:</label>
+        <input type="text" id="serialNumber" name="serialNumber" required>
+    </div>
+    <div>
+        <label for="portNumber">Port Number:</label>
+        <input type="text" id="portNumber" name="portNumber" required>
+    </div>
+    <div>
+        <label for="type">Type:</label>
+        <select id="type" name="type" required>
+            <option value="Type1">Type1</option>
+            <option value="Type2">Type2</option>
+        </select>
+    </div>
+    <div>
+        <button type="submit">Submit</button>
+    </div>
+</form>
+</body>
+</html>
